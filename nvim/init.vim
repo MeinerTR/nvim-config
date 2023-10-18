@@ -34,3 +34,10 @@ set virtualedit="block"
 set wildmode="longest:full,full" 
 set winminwidth=5 
 set wrap
+
+call plug#begin()
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
+
+inoremap <silent><expr> <TAB> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
