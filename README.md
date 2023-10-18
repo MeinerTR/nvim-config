@@ -8,4 +8,5 @@ I'm currently using ayu theme so install if you want.
 
 also dependecies:
 https://github.com/junegunn/vim-plug
+
 https://github.com/neoclide/coc.nvim
