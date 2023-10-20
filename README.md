@@ -9,4 +9,4 @@ I'm currently using ayu theme so install if you want.
 # dependecies:
 `https://github.com/junegunn/vim-plug`
 
-`https://github.com/neoclide/coc.nvim`
+`https://microsoft.github.io/pyright/#/installation`
