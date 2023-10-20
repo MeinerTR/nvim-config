@@ -39,5 +39,6 @@ call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
+map <silent> <C-e> <CR>:Explore<CR>  
 inoremap <silent><expr> <C-v> coc#pum#visible() ? coc#pum#confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
