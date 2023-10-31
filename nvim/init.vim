@@ -1,4 +1,4 @@
-colorscheme ayu
+colorscheme slate
 set autowrite
 set clipboard="unnamedplus"
 set conceallevel=3
